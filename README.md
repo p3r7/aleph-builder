@@ -36,4 +36,4 @@ build an AVR32 binary (`bees` app):
 
 ## implementation details
 
-Atmel AVR32 headers & toolchain are now hosted without a register wall but their server doesn't bans wget's user-agent so we fake ourselves as firefox.
+Atmel AVR32 headers & toolchain are now hosted without a register wall but their server blocks wget's user-agent so we fake ourselves as firefox.
