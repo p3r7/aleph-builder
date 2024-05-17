@@ -1,6 +1,6 @@
 # aleph-builder
 
-monome aleph builder docker image
+monome aleph builder docker image based on Ubuntu 24.04 LTS.
 
 
 ## image build
