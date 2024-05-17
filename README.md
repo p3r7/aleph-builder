@@ -3,6 +3,11 @@
 monome aleph builder docker image
 
 
+## image build
+
+    docker build -t aleph-builder  .
+
+
 ## usage
 
 run:
@@ -44,11 +49,6 @@ this allows me to jump directly in the container w/ TRAMP:
 my typicall launch command is:
 
     docker run -it --rm --platform linux/amd64 -v ~/Documents/code/monome:/root/code --name aleph-builder aleph-builder
-
-
-## image build
-
-    docker build -t aleph-builder  .
 
 
 ## implementation details
