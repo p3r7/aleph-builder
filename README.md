@@ -12,7 +12,7 @@ monome aleph builder docker image based on Ubuntu 24.04 LTS.
 
 run:
 
-    docker run -it --rm --platform linux/amd64 --name aleph-builder aleph-builder
+    docker run -it --rm --name aleph-builder aleph-builder
     git clone --recursive https://github.com/monome/aleph
 
 build a blackfin binary (`waves` DSP module):
