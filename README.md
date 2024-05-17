@@ -18,7 +18,7 @@ run:
 build a blackfin binary (`waves` DSP module):
 
     cd ~/aleph/modules/waves
-    make deploy
+    make
 
 
 build an AVR32 binary (`bees` app):
