@@ -47,7 +47,7 @@ this allows me to jump directly in the container w/ TRAMP:
 
 my typicall launch command is:
 
-    docker run -it --rm --platform linux/amd64 -v ~/Documents/code/monome:/root/code --name aleph-builder aleph-builder
+    docker run -it --rm --platform linux/amd64 -v ~/Documents/code/monome/aleph:/root/aleph --name aleph-builder aleph-builder
 
 
 ## implementation details
