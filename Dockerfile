@@ -4,7 +4,9 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update -y; \
     apt install -y gcc build-essential gcc-multilib lib32z1 \
-    unzip udisks2 git wget
+    unzip udisks2 git wget ripgrep fd-find
+
+RUN ln -s /usr/bin/fdfind /usr/bin/fd
 
 WORKDIR /opt
 
