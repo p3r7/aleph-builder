@@ -16,8 +16,8 @@ RUN wget --header="Accept: text/html" --user-agent="Mozilla/5.0 (Macintosh; Inte
 
 RUN wget --header="Accept: text/html" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0" http://www.atmel.com/Images/atmel-headers-6.1.3.1475.zip && \
     unzip atmel-headers-6.1.3.1475.zip && \
-    cp atmel-headers-6.1.3.1475/avr/ ~/avr32-gnu-toolchain/avr32/include -R && \
-    cp atmel-headers-6.1.3.1475/avr32/ ~/avr32-gnu-toolchain/avr32/include -R
+    cp atmel-headers-6.1.3.1475/avr/ ~/avr32-toolchain-linux/avr32/include -R && \
+    cp atmel-headers-6.1.3.1475/avr32/ ~/avr32-toolchain-linux/avr32/include -R
 
 WORKDIR /
 
