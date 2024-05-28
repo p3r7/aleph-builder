@@ -28,4 +28,10 @@ RUN echo 'export PATH=$PATH:~/avr32-toolchain-linux/bin' >> ~/.bashrc
 RUN echo 'export PATH=$PATH:/opt/uClinux/bfin-elf/bin' >> ~/.bashrc
 RUN echo 'export LC_ALL=C' >> ~/.bashrc
 
+RUN apt install -y luarocks; \
+    luarocks install luafilesystem; \
+    luarocks install lpack; \
+    luarocks install md5
+
+
 WORKDIR /root
